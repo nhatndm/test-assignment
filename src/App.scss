@@ -1,0 +1,19 @@
+:root {
+  --color-white: #ffffff;
+  --color-white-gray: #fafafa;
+  --color-dark-gray: #e5e5e5;
+  --color-slate-grey: #717b99;
+  --color-gray: #aebcc5;
+  --color-green: #00bfbe;
+}
+
+.test-assignment {
+  .list-messages {
+    min-height: 100vh;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-bottom: 100px;
+    background-color: var(--color-white-gray);
+  }
+}
